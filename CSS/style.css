@@ -25,7 +25,7 @@ body{
     background: #F8F9FA;
     box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.15);
     text-align: center;
-    
+    position: relative;
 }
 
                       /* Front */
@@ -79,3 +79,27 @@ body{
 
                             /* Back-end */
 
+.content .back-end{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 35px;
+    opacity: 1;
+}
+
+.content .back-end button{
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #0085CC;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.content .back-end button:hover{
+    background: #004266;
+}
