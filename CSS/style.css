@@ -79,17 +79,17 @@ body{
 
                             /* Back-end */
 
-.content .back-end{
+.back-end{
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50% -50%);
     width: 100%;
     height: 35px;
-    opacity: 1;
+    opacity: 0;
 }
 
-.content .back-end button{
+.back-end button{
     height: 100%;
     padding: 0 20px;
     border-radius: 5px;
@@ -100,6 +100,6 @@ body{
     transition: all 0.3s ease;
 }
 
-.content .back-end button:hover{
+.back-end button:hover{
     background: #004266;
 }
